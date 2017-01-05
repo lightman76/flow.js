@@ -1627,4 +1627,4 @@
       define( "flow", [], function () { return Flow; } );
     }
   }
-})(typeof(window) === 'undefined' ? {} : window, typeof(document) === 'undefined' ? {} : document);
+})(typeof(window) === 'undefined' ? {navigator:{}} : window, typeof(document) === 'undefined' ? {} : document);
