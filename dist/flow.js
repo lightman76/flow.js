@@ -50,7 +50,9 @@
     );
 
     if (!this.support) {
-      return ;
+      //Webworkers don't appear to advertise their support for File/Blog in Firefox or at least the tests above are
+      // failing.
+      //return ;
     }
 
     /**
