@@ -50,7 +50,8 @@
     );
 
     if (!this.support) {
-      return ;
+      //Appears firefox webworkers have support but don't pass above feature detection
+      //return ;
     }
 
     /**
